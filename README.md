@@ -9,7 +9,9 @@ Super simple ruby script to get emails of users within certain Slack channel
 bundle install
 ```
 
-1. Run:
+2. Run:
 ```sh
 ruby get-channel-users-emails.rb <YOUR-TOKEN> <CHANNEL_NAME>
 ```
+
+...and after the script is complete, results will be located within `./results`-directory.
