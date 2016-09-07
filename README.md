@@ -1,6 +1,6 @@
 # Get Slack Channel Users Emails
 
-Super simple ruby script to get emails of users within certain Slack channel
+Super simple ruby script to get emails of (non-disabled) users within certain Slack channel
 
 ### Usage
 
