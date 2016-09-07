@@ -39,6 +39,7 @@ channel['members'].each do |member|
   end
 end
 
+# Write results to file
 time = Time.new
 filename = "results/user-emails-#{channel_name}-#{time.strftime("%Y-%m-%d-%H%M%S")}.txt"
 File.open(filename, 'w') { |file| file.write(emails.join("\n")) }
