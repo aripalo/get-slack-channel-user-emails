@@ -40,6 +40,6 @@ channel['members'].each do |member|
 end
 
 time = Time.new
-filename = "results/user-emails-#{channel_name}-#{time.strftime("%Y-%m-%d %H:%M:%S")}.txt"
+filename = "results/user-emails-#{channel_name}-#{time.strftime("%Y-%m-%d-%H%M%S")}.txt"
 File.open(filename, 'w') { |file| file.write(emails.join("\n")) }
 puts "Emails written into file: #{filename}"
